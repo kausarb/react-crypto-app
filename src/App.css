@@ -1,0 +1,58 @@
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  background: #dcc2b1;
+  background: -webkit-linear-gradient(top left, #dcc2b1, #79bc9b);
+  background: -moz-linear-gradient(top left, #dcc2b1, #79bc9b);
+  background: linear-gradient(to bottom right, #dcc2b1, #79bc9b);
+  border-radius: 25px;
+  border: 1px solid;
+}
+h1 {
+  color: forestgreen;
+}
+
+input {
+  padding-left: 5px;
+  font-size: 16px;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid darkgreen;
+}
+
+table {
+  width: 1000px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  border: 1px solid;
+  background-color: white;
+}
+
+thead {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(44, 44, 44);
+}
+
+tbody > tr {
+  text-align: center;
+}
+
+.first-para {
+  padding: 15px;
+}
+
+.bid-question {
+  text-align: center;
+}
