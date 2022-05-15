@@ -78,16 +78,6 @@ export default function Cryptocoins() {
           </tbody>
         )}
       </Table>
-      {/* <div className="row">
-        <div className="col-md-6">
-          <PaginationComponent
-            total={totalItems}
-            itemsPerPage={ITEMS_PER_PAGE}
-            currentPage={currentPage}
-            onPageChange={(page) => setCurrentPage(page)}
-          />
-        </div>
-      </div> */}
     </div>
   );
 }
