@@ -1,2 +1,2 @@
 # react-crypto-app
-Crypto single page application
+Cryptocurrency single page application in ReactJS
